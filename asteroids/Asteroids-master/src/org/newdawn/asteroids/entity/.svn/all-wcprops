@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity
+END
+EntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/EntityManager.java
+END
+Shot.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/Shot.java
+END
+AbstractEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/AbstractEntity.java
+END
+Rock.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/Rock.java
+END
+Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/Entity.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/game487f12/!svn/ver/5/AsteroidsF12/src/org/newdawn/asteroids/entity/Player.java
+END

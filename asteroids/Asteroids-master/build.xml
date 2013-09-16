@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- build.xml, for Ant to compile and run LWJGL Asteriods example -->
+<!-- native libraries are set for Mac, all the lwjgl libs are in the -->
+<!-- project lib directory, adjust the required native as needed -->
+<!-- Michael Wainer, Sept. 2009, 2010, 2011, 2012.   -->
+<!-- Libraries used are from LWJGL 2.7.1 http://lwjgl.org/  -->
+<!-- Stay tuned for more recent LWJGL libs -->
+<project basedir="." default="compile">
+	<property name="build.dir" value="build" />
+	<property name="src.dir" value="src" />
+	<property name="dist.dir" value="dist" />
+	<property name="build.compiler" value="modern" />
+	<property name="LWJGLlibs" value="${basedir}/lib" />
+	<property name="LWJGLnative" value="${basedir}/lib/lwjgl/native/windows" />
+
+	<target description="Creates temporary directories" name="init">
+		<mkdir dir="${build.dir}/classes" />
+		<mkdir dir="${dist.dir}" />
+	</target>
+
+	<target depends="init" description="Removes temporary directories" name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" failonerror="false" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac debug="true" deprecation="true" fork="true"
+			destdir="${build.dir}/classes"
+			srcdir="${src.dir}"  verbose="true" >
+			<classpath>
+				<fileset dir="${LWJGLlibs}/lwjgl">
+					<include name="*.jar"/>
+				</fileset>
+				<fileset dir="${LWJGLlibs}/jorbis">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="run LWJGL Asteroids" depends="compile" description="Run the Application">
+		<java classname="org.newdawn.asteroids.GameWindow" failonerror="true" fork="true">
+			<jvmarg value="-Djava.library.path=${LWJGLnative}" />
+			<classpath>
+				<pathelement location="${build.dir}/classes" />
+				<pathelement location="${build.dir}/.." />
+				<fileset dir="${LWJGLlibs}">
+					<include name="*.jar" />
+					<include name="*/*.jar" />
+				</fileset>
+			</classpath>
+		</java>
+	</target>
+
+</project>

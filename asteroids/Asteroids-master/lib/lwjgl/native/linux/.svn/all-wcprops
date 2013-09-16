@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux
+END
+libopenal.so
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/libopenal.so
+END
+libjinput-linux64.so
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/libjinput-linux64.so
+END
+libopenal64.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/libopenal64.so
+END
+liblwjgl.so
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/liblwjgl.so
+END
+liblwjgl64.so
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/liblwjgl64.so
+END
+libjinput-linux.so
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/linux/libjinput-linux.so
+END

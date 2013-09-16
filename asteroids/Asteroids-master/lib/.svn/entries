@@ -1,0 +1,34 @@
+10
+
+dir
+6
+http://svn.cs.siu.edu/repos/game487f12/AsteroidsF12/lib
+http://svn.cs.siu.edu/repos/game487f12
+
+
+
+2012-09-13T20:28:31.645265Z
+5
+wainer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+728305b2-7cff-46a3-a918-484a5ddd5efb
+
+jorbis
+dir
+
+lwjgl
+dir
+

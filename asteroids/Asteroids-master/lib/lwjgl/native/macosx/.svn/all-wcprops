@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/macosx
+END
+libjinput-osx.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/macosx/libjinput-osx.jnilib
+END
+openal.dylib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/macosx/openal.dylib
+END
+liblwjgl.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/native/macosx/liblwjgl.jnilib
+END

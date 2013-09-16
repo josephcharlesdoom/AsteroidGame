@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl
+END
+lwjgl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/lwjgl.jar
+END
+lwjgl_util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/lwjgl_util.jar
+END
+jinput.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/game487f12/!svn/ver/5/AsteroidsF12/lib/lwjgl/jinput.jar
+END
